@@ -43,7 +43,7 @@ const About = () => {
     >
     I'm a skilled software developer with experience 
     in Javascript, Dart, and expertise in frameworks 
-    like React, Node.js and Three.js. 
+    like React, Nextjs, Node.js and Three.js. 
     I'm a passionate and self-driven developer on a 
     continuous learning journey. Open to collaboration 
     and eager to contribute as part of a team. Let's 

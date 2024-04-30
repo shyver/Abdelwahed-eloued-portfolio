@@ -25,8 +25,11 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import convioo from "./company/convioo.jpg";
 
-import carrent from "./carrent.png";
+import conviooview from './Dash-home.png';
+import peckpanic from './peckpanic.png';
+import nextjs from './nextjs.png'
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import flutter from "./tech/flutter.png";
@@ -58,10 +61,13 @@ export {
   shopify,
   starbucks,
   tesla,
-  carrent,
   jobit,
   tripguide,
   flutter,
   dart,
   firebase,
+  convioo,
+  conviooview,
+  peckpanic,
+  nextjs
 };

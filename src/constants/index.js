@@ -18,13 +18,16 @@ import {
     starbucks,
     tesla,
     shopify,
-    carrent,
     jobit,
     tripguide,
     threejs,
     flutter,
     dart,
-    firebase
+    firebase,
+    convioo,
+    conviooview,
+    peckpanic,
+    nextjs
   } from "../assets";
   
   export const navLinks = [
@@ -118,52 +121,13 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      title: "Full Stack Developer",
+      company_name: "Convioo",
+      icon: convioo,
+      iconBg: "#FFFFFF",
+      date: "June 2023 - Now",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
+        "Developing and maintaining web applications using Nextjs.js, Firebase and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
         "Participating in code reviews and providing constructive feedback to other developers.",
@@ -200,16 +164,16 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Convioo",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Convioo is a new interactive video platform. It allows users to create and share engaging video content with embedded questions and prompts, fostering a more interactive and dynamic viewing experience.",
       tags: [
         {
-          name: "react",
+          name: "Nextjs",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "Firebase",
           color: "green-text-gradient",
         },
         {
@@ -217,34 +181,30 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: conviooview,
+      source_code_link: "https://github.com/shyver/convioo-app",
     },
     {
-      name: "Job IT",
+      name: "Peck Panic",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Peck Panic is a charming 2D side-scrolling platformer designed for children. Players control Pip, a lovable but clumsy kid, who must navigate vibrant levels filled with colourful platforms and obstacles to reach the exit.",
       tags: [
         {
-          name: "react",
-          color: "blue-text-gradient",
+          name: "Flutter",
+          color: "orange-text-gradient",
         },
         {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
+          name: "Flame Engine",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: peckpanic,
+      source_code_link: "https://github.com/shyver/nameless_pixel_game/tree/master",
     },
     {
-      name: "Trip Guide",
+      name: "SAAS Template",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "A template for a SaaS platform using Next.js, NextAuth, MongoDB and Azure. This template includes authentication, user management, and a dashboard.",
       tags: [
         {
           name: "nextjs",
@@ -259,8 +219,8 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: nextjs,
+      source_code_link: "https://github.com/azizamari/template-saas",
     },
   ];
   
