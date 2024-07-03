@@ -26,6 +26,8 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import convioo from "./company/convioo.jpg";
+import voyverse from "./company/voyverse.png";
+import upwork from "./company/upwork.png";
 
 import conviooview from './Dash-home.png';
 import peckpanic from './peckpanic.png';
@@ -69,5 +71,7 @@ export {
   convioo,
   conviooview,
   peckpanic,
-  nextjs
+  nextjs,
+  voyverse,
+  upwork
 };

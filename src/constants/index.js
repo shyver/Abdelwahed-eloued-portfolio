@@ -27,7 +27,9 @@ import {
     convioo,
     conviooview,
     peckpanic,
-    nextjs
+    nextjs,
+    voyverse,
+    upwork
   } from "../assets";
   
   export const navLinks = [
@@ -121,7 +123,37 @@ import {
   
   const experiences = [
     {
-      title: "Full Stack Developer",
+      title: "Contract Next.js developer", 
+      company_name: "Voyverse",
+      icon: voyverse,
+      iconBg: "#FFFFFF",
+      date: "April 2024 - June 2024",
+      points: [
+        "Developed and maintained a digital memorial web application using Next.js, MongoDB and other related technologies.",
+        "Collaborated with the Voyverse team to implement new features and functionalities.",
+        "Optimized website performance for improved user experience and SEO.",
+        "Successfully delivered projects on time and within budget.",
+        "Participated in code reviews and provided constructive feedback to other developers.",
+
+      ],
+    },
+    {
+      title: "Contract Flutter developer", 
+      company_name: "Upwork",
+      icon: upwork,
+      iconBg: "#FFFFFF",
+      date: "February 2024 - March 2024",
+      points: [
+        "Developed and maintained the MVP of a Carwash booking mobile application using Flutter, Firebase and other related technologies.",
+        "Optimized app performance for improved user experience.",
+        "Successfully delivered projects on time and within budget.",
+        "Collaborated with app designers to implement new features and functionalities.",
+
+      ],
+    },
+
+    {
+      title: "Co-founder & CTO",
       company_name: "Convioo",
       icon: convioo,
       iconBg: "#FFFFFF",
@@ -133,6 +165,7 @@ import {
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
+
   ];
   
   const testimonials = [
