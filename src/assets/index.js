@@ -20,11 +20,6 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
-
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
 import convioo from "./company/convioo.jpg";
 import voyverse from "./company/voyverse.png";
 import upwork from "./company/upwork.png";
@@ -59,10 +54,6 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
   jobit,
   tripguide,
   flutter,
